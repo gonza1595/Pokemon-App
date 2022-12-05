@@ -9,4 +9,10 @@ The functionalities that the application has:
 - Filter by type of pokemon and if the pokemon comes from the API or from the database
 - Alphabetical ordering or by major attack
 
-<img height="100" src="./home.png">
+<img height="250" src="./home.png">
+
+Technologies:
+
+- For the database: PostgresSQL and Sequelize
+- For the back-end: Nodejs with Express.
+- For the front-end: React, Redux, Pure CSS
