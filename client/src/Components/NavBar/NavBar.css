@@ -1,0 +1,36 @@
+.filter {
+   margin: 5px;
+   border-radius: 10px;
+   background-color: rgb(220, 220, 220, 0.5);
+   font-size: 15px;
+   padding: 10px 10px 10px 10px;
+   border: 4px transparent black;
+   font-weight: bold;
+}
+
+.containerFilter {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+}
+
+.searchcomponent {
+   text-align: right;
+   display: flex;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    
+}
+
+.separarcomponents {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.containerNav {
+    background-color:  transparent;
+   text-align: center;
+  padding: 20px;
+}
+

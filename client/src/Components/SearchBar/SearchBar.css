@@ -1,0 +1,24 @@
+.searchbar {
+   border-radius: 10px;
+   background-color: rgb(220, 220, 220, 0.5);
+   font-size: small;
+   padding: 10px 10px 10px 10px;
+   border: 1px transparent black;
+  
+}
+
+.button {
+    color: blanchedalmond;
+    background-color: black;
+    border: 4px transparent black;
+    font-size: small;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}

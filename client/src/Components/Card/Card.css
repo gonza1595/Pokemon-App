@@ -1,0 +1,38 @@
+.container {
+ border: 5px transparent black;
+ border-radius: 10px;
+ margin: 20px;
+ max-width: 250px;
+ text-align: center;
+ padding: 10px 10px 10px 10px;
+ background-color: rgb(220, 220, 220, 0.5);
+}
+
+.image {
+    height: 180px;
+    width: 180px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.name {
+font-style: normal;
+color: black;
+font-size: 25px;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 2px;
+}
+
+.types {
+    font-style: normal;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+

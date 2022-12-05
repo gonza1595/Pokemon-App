@@ -1,0 +1,11 @@
+.allcard {
+
+    display: grid;
+    grid-template-columns: repeat(6, 310px);
+    justify-content: center;
+    background-color:darkslateblue;
+}
+
+.card {
+    text-decoration: none;
+}

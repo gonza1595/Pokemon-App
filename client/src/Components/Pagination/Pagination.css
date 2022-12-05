@@ -1,0 +1,40 @@
+.containerPag {
+   text-align: center;
+   background-color:darkslateblue;
+}
+
+.buttonPrev {
+    font-size: medium;
+    margin: 2px;
+    border: 2px transparent;
+ border-radius: 5px;
+ padding: 5px 10px 5px 10px;
+ background-color: rgb(220, 220, 220, 0.5);
+ color: black;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ cursor: pointer
+}
+
+.buttonNext {
+    font-size: medium;
+    margin: 2px;
+    border: 2px transparent;
+ border-radius: 5px;
+ padding: 5px 10px 5px 10px;
+ background-color: rgb(220, 220, 220, 0.5);
+ color: black;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ cursor: pointer
+}
+
+.buttonPag {
+    font-size: medium;
+    margin: 2px;
+    border: 2px transparent;
+ border-radius: 5px;
+ padding: 5px 10px 5px 10px;
+ background-color: rgb(220, 220, 220, 0.5);
+ color: black;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ cursor: pointer
+}

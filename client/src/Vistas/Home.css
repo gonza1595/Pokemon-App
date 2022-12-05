@@ -1,0 +1,37 @@
+.topNav {
+display: flex;
+justify-content: center;
+padding: 20px;
+    
+}
+
+.buttonCreate {
+font-size: 30px;
+margin: 5px 10px 5px 10px;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+background-color: rgb(220, 220, 220, 0.5);
+border: 2px transparent;
+}
+
+.buttonHome {
+font-size: 30px;
+margin: 5px 30px 5px 10px;
+font-weight: bold;
+border-radius: 7px;
+border: 2px transparent;
+cursor: pointer;
+background-color: rgb(220, 220, 220, 0.5);
+}
+
+.fondoHome {
+background-color:darkslateblue;
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: local;
+height: 100vh;
+}
+
+
+
