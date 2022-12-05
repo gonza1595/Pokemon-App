@@ -1,4 +1,4 @@
-PI-POKEMON-APP
+# PI-POKEMON-APP
 
 Development and design of a SPA where we can observe different pokemons, see in detail what their relevant characteristics are, the information is consumed from an API.
 
