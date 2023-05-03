@@ -16,3 +16,5 @@ Technologies:
 - For the database: PostgresSQL and Sequelize
 - For the back-end: Nodejs with Express.
 - For the front-end: React, Redux, Pure CSS
+
+<a href="https://pokemon-app-theta-olive.vercel.app/">Deploy link!</a>
