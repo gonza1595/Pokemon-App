@@ -4,6 +4,8 @@ import { Route, BrowserRouter } from "react-router-dom";
 import Detail from "./Components/Detail/Detail";
 import LandingPage from "./Components/LandingPage/LandingPage.jsx";
 import Form from "./Components/Form/Form";
+import axios from "axios";
+axios.defaults.baseURL = "http://localHost:3001/";
 
 function App() {
   return (

@@ -2,14 +2,14 @@ import axios from "axios";
 
 export const getPokemons = () => {
   return async (dispatch) => {
-    let pedidoApi = await axios.get("http://localHost:3001/pokemons");
+    let pedidoApi = await axios.get("/pokemons");
     dispatch({ type: "GET_POKEMON", payload: pedidoApi.data });
   };
 };
 
 export const getTypes = () => {
   return async (dispatch) => {
-    let pedidoApi = await axios.get("http://localHost:3001/types");
+    let pedidoApi = await axios.get("/types");
     dispatch({ type: "GET_TYPES", payload: pedidoApi.data });
   };
 };
@@ -17,9 +17,7 @@ export const getTypes = () => {
 export const getPokemonNames = (name) => {
   return async (dispatch) => {
     try {
-      let pedidoApi = await axios.get(
-        `http://localHost:3001/pokemons?name=${name}`
-      );
+      let pedidoApi = await axios.get(`/pokemons?name=${name}`);
       dispatch({ type: "GET_NAME_POKEMON", payload: pedidoApi.data });
     } catch (error) {
       alert("No existe ningun pokemon con ese nombre", error);
@@ -30,7 +28,7 @@ export const getPokemonNames = (name) => {
 export const getDetail = (id) => {
   return async (dispatch) => {
     try {
-      let pedidoApi = await axios.get(`http://localHost:3001/pokemons/${id}`);
+      let pedidoApi = await axios.get(`/pokemons/${id}`);
       dispatch({ type: "GET_DETAILS", payload: pedidoApi.data });
     } catch (error) {
       alert("No hay ningun pokemon con ese ID", error);
@@ -41,10 +39,7 @@ export const getDetail = (id) => {
 export const createPokemon = (payload) => {
   return async (dispatch) => {
     try {
-      let pedidoApi = await axios.post(
-        "http://localHost:3001/pokemons/create",
-        payload
-      );
+      let pedidoApi = await axios.post("/pokemons/create", payload);
       dispatch({
         type: "CREATE_POKEMON",
         payload: pedidoApi.data,
