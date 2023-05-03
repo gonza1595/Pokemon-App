@@ -103,7 +103,10 @@ export default function Form() {
     } else if (input.types.length > 2) {
       return alert("Solo se pueden elegir dos tipos por pokemon");
     }
-    await axios.post("http://localHost:3001/pokemons/create", input);
+    await axios.post(
+      "https://pokemon-app-production-f6c7.up.railway.app/pokemons/create",
+      input
+    );
 
     setInput({
       name: "",
