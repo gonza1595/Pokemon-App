@@ -24,7 +24,7 @@ const { getTypes } = require("../api/src/routes/Controllers");
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => {
   getTypes();
-  server.listen(3001, () => {
-    console.log("%s listening at 3001"); // eslint-disable-line no-console
+  server.listen(process.env.PORT, () => {
+    console.log("%s listening at", process.env.PORT); // eslint-disable-line no-console
   });
 });
